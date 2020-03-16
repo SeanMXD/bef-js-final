@@ -1,0 +1,18 @@
+<table>
+    <thead>
+        <th>UserId</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>IsAdmin</th>
+        <th>IsDeleted</th>
+    </thead>
+    {{#each Users}}
+    <tr>
+        <th>{{this.UserId}}</th>
+        <th>{{FirstName}}</th>
+        <th>{{LastName}}</th>
+        <th>{{Admin}}</th>
+        <th>{{Deleted}}</th>
+    </tr>
+    {{/each}}
+</table>
